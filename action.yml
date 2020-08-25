@@ -1,0 +1,9 @@
+name: 'release_notes'
+description: 'Create release notes with javaScript'
+
+runs: 
+  using: 'docker'
+  image: 'Dockerfile'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
